@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node src/app.js",
+    "dev": "nodemon src/app.js -e js,hbs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -14,6 +15,7 @@
     "chalk": "^5.0.1",
     "express": "^4.18.1",
     "hbs": "^4.0.1",
+    "nodemon": "^2.0.19",
     "request": "^2.88.2"
   }
 }
